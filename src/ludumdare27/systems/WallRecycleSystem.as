@@ -41,6 +41,8 @@ package ludumdare27.systems
 					positionComponent.position.y = Constants.gameHeight - spawnHeight;
 				}
 				
+				collisionComponent.height = spawnHeight;
+				
 				WallFragmentView(displayComponent.displayObject).redraw(collisionComponent.width, spawnHeight);
 			}
 		}
